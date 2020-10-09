@@ -1,7 +1,6 @@
 import React from 'react';
-import '../../pcui/scss/pcui.scss';
 import Component from './component';
-import { getDescriptionForClass, getPropertiesForClass } from '../../utils/docscript';
+import { getDescriptionForClass, getPropertiesForClass } from '../../../.storybook/utils/docscript'
 
 var name = 'Graph';
 var config = {
